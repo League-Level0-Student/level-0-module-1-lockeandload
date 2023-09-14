@@ -3,6 +3,8 @@ package _03_if_else._3_secret_message_box;
 //    Level 0
 
 
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 /**
@@ -15,15 +17,17 @@ import javax.swing.JOptionPane;
  */
 
 public class SecretMessageBox {
-
 	// 0. Make a main method and put steps 1-5 inside it
 	public static void main(String[] args) {
+		Random Rhehehe = new Random();
+		System.out.println (Rhehehe.nextInt(1000));
 	// 1. Set a password in a String variable
 		String secretMessage = JOptionPane.showInputDialog("what is the dumbest insult you can think of.");
+		System.out.println (secretMessage.nextInt(1000));
 		if (secretMessage.equals("Yo mama so fat when she got on the scale it said, “I need your weight not your phone number.")) {		
-			String s = JOptionPane.showInputDialog("ha ha ha nice job looking at my code you lozer!");
+			String secreMessage = JOptionPane.showInputDialog("ha ha ha nice job looking at my code you lozer!");
 		}
-		String password = JOptionPane.showInputDialog();
+	
 		
 
 	// 2. Using a pop-up, ask the first person for a secret message and store it in a variable
