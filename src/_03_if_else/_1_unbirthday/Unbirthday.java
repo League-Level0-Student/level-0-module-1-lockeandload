@@ -14,7 +14,7 @@ if (unbirthday.equals("08/23")) {
 
 if (!(unbirthday.equals("08/23"))) {
     
-String unbirthday3 = JOptionPane.showInputDialog("get on fortnite you lozer!");
+String unbirthday2 = JOptionPane.showInputDialog("get on fortnite you lozer!");
 
 }
 
